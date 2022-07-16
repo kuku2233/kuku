@@ -1,0 +1,294 @@
+body{
+    margin:0 auto;
+    width:1720px;
+    height:100vh;
+    background-image: url(bg1.png);
+    
+}
+*::selection{
+    background-color: white;
+    color:black;
+}
+header{
+    width:1440px;
+    height:967px;
+    margin:0 140px 0 135px;
+    background-image: url(bg1.png);
+    font-family: 'Nunito';
+}
+.contacts{
+    height: 28px;
+    font-size:16px;
+    left:20%;
+    right:0%;
+    top:0px;
+    display: flex;
+    position: absolute;
+}
+.phoneimg{
+    margin-top:1.07%;
+    margin-right:0.5%;
+    height: 28px;
+    left:0%;
+    right:0%;
+    top:0px;
+    background: orange;
+    padding:5px;
+    width:11.73px;
+    height:11.89px;
+    position: relative;
+    border-radius: 2px;
+    transition:  width 0.2s, height 0.2s;
+}
+
+.tgimg{
+    width:11.95;
+    height:11.94;
+    background-color: orange;
+    padding:5px;
+    margin-top:1.07%;
+    margin-left:1.5%;
+    margin-right:0.5%;
+    position: relative;
+    border-radius: 2px;
+    transition:  width 0.2s, height 0.2s, box-shadow 0.2s;
+}
+.phoneimg:hover{
+    width:15px;
+    height:15px;
+    box-shadow:1px 1px 10px white;
+    cursor:pointer;
+}
+.tgimg:hover{
+    width:15px;
+    height:15px;
+    box-shadow:1px 1px 10px white;
+    cursor:pointer;
+}
+.twitticon{
+    height: 70%;
+    border-radius: 0px;
+    position: relative;
+    margin-top:1.07%;
+    margin-left:38%;
+    transition:  padding 0.4s;
+}
+.twitticon:hover{
+    padding:10px;
+    cursor:pointer;
+}
+.fcbicon{
+    width:10px;
+    height: 60%;
+    border-radius: 0px;
+    position: relative;
+    margin-top:1.07%;
+    margin-left:2%;
+    transition:  padding 0.4s;
+}
+.fcbicon:hover{
+    padding:10px;
+    cursor:pointer;
+}
+.linkdicon{
+    height: 60%;
+    border-radius: 0px;
+    position: relative;
+    margin-top:1.07%;
+    margin-left:2%;
+    transition:  padding 0.4s;
+}
+.linkdicon:hover{
+    padding:10px;
+    cursor:pointer;
+}
+.pinterest{
+    height: 75%;
+    border-radius: 0px;
+    position: relative;
+    margin-top:1.07%;
+    margin-left:2%;
+    transition:  padding 0.4s;
+}
+.pinterest:hover{
+    padding:10px;
+    cursor:pointer;
+}
+.navdiv{
+    position: relative;
+    width:1160px;
+    height:94px;
+    border-radius:10px;
+    margin-top:4%;
+    margin-left:140px;
+    background-color:white;
+    display:flex;
+}
+.logoimg{
+    padding-top:40px;
+    padding-left:20.92px;
+    padding-bottom:37.83px;
+    padding-right:150px;
+    width:87.61px;
+    height:17.74px;
+    display:inline;
+}
+.home{
+    padding:35px 30px 35px 10px;
+    margin-top:0;
+}
+.home:hover{
+ opacity:0.2;
+ cursor:pointer;
+}
+button{
+    font-size:17px;
+    font-family:'Nunito';
+    background: rgba(244, 171, 0, 1);
+    border-radius: 40px;
+    width:120px;
+    height:49px;
+    color:white;
+    margin-top:22px;
+    margin-left:90px;
+    border-style:none;
+    cursor:pointer;
+    transition: box-shadow 0.7s, color 0.7s, background-color 0.7s;
+}
+button:hover{
+    background-color:black;
+    color:orange;
+    box-shadow:1px 1px 1px 4px black;
+}
+.infodiv{
+    line-height: 1.6;
+    margin-left:140px;
+    margin-top:105px;
+    margin-bottom:100px;
+    font-size:60px;
+    font-weight:600;
+    display:flex;
+    position:relative;
+}
+.p{
+    margin: 15px;
+}
+.bgphoto{
+    margin-left:120px;
+    width:738px;
+    height:530px;
+}
+.afterheaddiv{
+    background-color:white; 
+    border-radius: 0px;
+    height: 1702px;
+    position: relative;
+}
+.bottomlinephoto{
+    max-width:1770px;
+    width:100%;
+    margin-top:100px;
+    border-radius: px;
+}
+.button1{
+    margin-left:1px;
+    width:186px;
+    height:52px;
+    font-size:20px;
+}
+.blockdiv{
+    position: absolute;
+    top:0px;
+    left:0px;
+    background-color: white;
+    width:1160px;
+    height:518px;
+    margin-top:900px;
+    margin-left:380px;
+    margin-right:360px;
+    margin-bottom: 145px;
+    border-radius: 10px;
+    box-shadow:2px 2px 10px 2px rgba(0,0,0,0.2);
+}
+.dopinfodiv{
+    top:0px;
+    left:0px;
+    position: absolute;
+    margin-top:1010px;
+    margin-left:1000px;
+    margin-right:360px;
+}
+.tgimgbig{
+    position:absolute;
+    width:86px;
+    height:86px;
+    display:flex;
+    top:0px;
+    left:0px;
+    margin-top:1020px;
+    margin-left:1000px;
+    margin-right:360px;
+}
+.dop2infodev{
+    top:0px;
+    left:0px;
+    position: absolute;
+    margin-top:1223px;
+    margin-left:1100px;
+    margin-right:360px;
+}
+.rocketbigimg{
+    position:absolute;
+    width:86px;
+    height:86px;
+    margin-top:20px;
+    margin-left:-110px;
+}
+.middlediv{
+    position: absolute;
+    top:0%;
+    left:0;
+    margin-top:1650px;
+    margin-left:372px;
+    display: flex;
+    font-family:'Nunito';
+}
+.imgmiddle{
+    width:552px;
+    height:559px;
+}
+.ppp{
+    position: absolute;
+    color:purple; margin-top:80px; font-size:42px; margin-left:630px;
+    width:490px
+}
+.underppp{
+    position: absolute;
+    margin-top:250px;
+    margin-left:630px;
+    width:456px;
+    height:102px;
+    font-size:18px;
+    color:rgba(96, 75, 131, 1);
+
+}
+.iltextdiv{
+    position: relative;
+    margin-top:1000px;
+    margin-left:915px;
+    font-family: 'Nunito';
+    color:rgba(44, 18, 88, 1);
+}
+.iltextdiv2{
+    position: absolute;
+    margin-left: 300px;
+    position: absolute;
+    height: 28px;
+    left:10px;
+    right: 22.94%;
+    top: -9.5%;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
